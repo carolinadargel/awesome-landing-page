@@ -65,7 +65,7 @@ header .menu{
     height: 448px;
     color: #e5e7eb;   
     padding-inline: 148px;
-    padding-block: 64px;
+    padding-bottom: 36px;
 }
 
 .presentation-child{
@@ -76,7 +76,6 @@ header .menu{
     justify-content: space-around;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 46px;
     min-width: 50%;
     min-height: 200px;
 }
@@ -188,7 +187,7 @@ header .menu{
 }
 
 .information-list .information-item .image-item{
-    border: 5px solid #3882f6;
+    border: 4px solid #3882f6;
     border-radius: 10px;
     width: 150px;
     height: 150px;
