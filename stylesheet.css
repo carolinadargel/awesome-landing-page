@@ -113,14 +113,15 @@ header .menu{
     flex-direction: column;
     position: relative;
     z-index: 1;
-    background-color: #e5e7eb;
+    background-image: url("./images/header_image.png");
+    background-size:contain;
     opacity: 0.5;
     width: 100%;
+    height: 100%;
     margin: auto;
 }
 
-.placeholder-text{
-    position: absolute;
+.placeholder-image{
     z-index: 2;
     padding: 24px;
     align-self: center;
