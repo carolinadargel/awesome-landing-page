@@ -186,11 +186,44 @@ header .menu{
     padding: 22px;
 }
 
-.information-list .information-item .image-item{
+.information-list .information-item .image-item1{
     border: 4px solid #3882f6;
     border-radius: 10px;
+    background-image: url("./images/europe.jpeg");
+    background-size: cover;
     width: 150px;
     height: 150px;
+}
+
+.information-list .information-item .image-item2{
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    background-image: url("./images/beach.jpeg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.information-list .information-item .image-item3{
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    background-image: url("./images/australia2.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.information-list .information-item .image-item4{
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    background-image: url("./images/asia.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.image-item img{
+    background-size: cover;
 }
 
 .information-item p{
