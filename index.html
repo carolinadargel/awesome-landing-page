@@ -4,93 +4,114 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Flexbox Agency</title>
-        <link rel="stylesheet" href="./stylesheet.css">
+        <link rel="stylesheet" href="./css/stylesheet.css">
     </head>
     <body>
-        <header>
-            <div class="flex-container menu">
-                <h1>Header Logo</h1>
-                <ul class="list-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </header>
-        <div class="presentation-wrapper">
+        <section id="header">
+            <header>
+                <figure>
+                    <img src="./images/logo.svg">
+                </figure>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="./index.html">Home</a></li>
+                          <li><a href="#">About</a></li>
+                                <li><a href="#">Destinations</a>
+                                   <ul>
+                                       <li><a href="#">Africa</a></li>
+                                       <li><a href="#">Asia</a></li>
+                                       <li><a href="#">Europe</a></li>
+                                       <li><a href="#">North America</a></li>
+                                       <li> <a href="./pages/southamerica.html">South America</a></li>
+                                       <li><a href="#">Oceania</a></li>
+                                     </ul>
+                              </li>
+                          <li><a href="#">Links</a></li>
+                          <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+        <section class="presentation">            
             <div class="presentation-child-left">
                 <h1>Flexbox Agency</h1>
-                <p>Find here the best options for your next trip to awesome places</p>
+                <p>Find here the best options for your next trip to awesome places. </p>
                 <a href="" class="sign-up-btn">Sign up</a>
             </div>
-            <div class="presentation-child">
-                <div class="placeholder-image">
-                </div>
-                <div class="presentation-child placeholder">
-                </div>       
-            </div>
-        </div>    
-        <div class="information-wrapper">
-            <div class="first-child">
-                <h2>Find out about our destinations</h2>
-            </div>        
-            <div class="second-child"> 
-                <div class="information-list">
-                    <div class="information-item">
-                        <div class="image-item1">
+            <div class="presentation-child-right">
+                <figure>
+                    <img src="./images/header_image.png"
+                    alt="a man standing in front a stunning waterfall"
+                    title="Explore nature around the world with us, find out amazing landscapes">
+                </figure>
+            </div>       
+        </section>
+        <section class="destinations">
+            <div class="information-wrapper">
+                <div class="first-child">
+                    <h2>Find out more about our destinations</h2>
+                </div>        
+                <div class="second-child"> 
+                    <div class="information-list">
+                        <div class="information-item">
+                            <figure>
+                                <img src="./images/europe.jpeg" alt="busy city with lots of people and advertisement">
+                                <figcaption>Great deals to Europe</figcaption>
+                            </figure>                       
                         </div>
-                        <p>Great deals to Europe</p>
-                    </div>
-                    <div class="information-item">
-                        <div class="image-item2"></div>
-                        <p>Visit South America</p>
-                    </div>
-                    <div class="information-item">
-                        <div class="image-item3"></div>
-                        <p>Get to known Australia better</p>
-                    </div>
-                    <div class="information-item">
-                        <div class="image-item4"></div>
-                        <p>Meet the best of Asia</p>
+                        <div class="information-item">
+                            <figure>
+                                <a href="./pages/southamerica.html"><img src="./images/beach.jpeg" alt="beautiful beach in a sunny day">
+                                <figcaption>Visit South America</figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="information-item">
+                            <figure>
+                                <img src="./images/australia.png" alt="Australia famous postcard picture">
+                                <figcaption>Get to known Australia better</figcaption>
+                            </figure>
+                        </div>
+                        <div class="information-item">
+                            <figure>
+                                <img src="./images/asia.png" alt="postcard from China, with a water fount and flowers">
+                                <figcaption>Meet the best of Asia</figcaption>
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-
-        <div class="quote-wrapper">
-            <div class="quote">
-                <p>I have been travelling with Flexbox Agency for 3 years now, 
+        </section>
+        <section class="quotes">
+            <div class="quote-wrapper">
+                <q>
+                    I have been travelling with Flexbox Agency for 3 years now, 
                     and it it has been honestly the best thing I could posible choose.
                     You always come from a trip in a new and better version of yourself.
-                </p>
+                </q>
+                <cite>
+                -Sandra Smith
+                <cite>
             </div>
-            <div class="quote-author">
-                <p>-Sandra Smith</p>
-            </div>
-        </div>
-
-        <div class="call-to-action">
-            <div class="cta-column">
-                <div class="cta-title">
-                    <p>Book your next trip right now</p>
+            <div class="call-to-action">
+                <div class="cta-column">
+                    <div class="cta-title">
+                        <p>Book your next trip right now</p>
+                    </div>
+                    <div class="cta-text">
+                        <p>Sign up for our newsletter and get the best deals to your favorite 
+                            destinations!</p>
+                    </div>
                 </div>
-                <div class="cta-text">
-                    <p>Sign up for our newsletter and get the best deals to your favorite 
-                        destinations!</p>
+                <div class="cta-column">
+                    <div class="call-to-action-btn">
+                        <a href="" class="sign-up-btn">Sign up</a>
+                    </div>
                 </div>
             </div>
-            <div class="cta-column">
-                <div class="call-to-action-btn">
-                    <a href="" class="sign-up-btn">Sign up</a>
-                </div>
-            </div>
-        </div>
-        
-    
+        </section>
         <footer>
-                <p>Copyright &copy;</p>
+            <p>Copyright &copy;</p>
         </footer>
-        
     </body>
 </html>
